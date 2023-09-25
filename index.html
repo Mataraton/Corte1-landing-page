@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="SamyCallejas">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="/sass/stylemenu.css">
+    <link rel="stylesheet" href="/sass/styleindex.css">
+</head>
+<body class="moscas">
+     
+      <!--cabecera-->
+      <header>
+        <div class="cotenedorm">
+          <input type="checkbox" id="menu">
+          <label for="menu">
+            <img class="logo" src="menu.png" alt=""  >
+          </label>
+          <nav class="navbar">
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Encuesta</a></li>
+              <li><a href="#">Servicios</a></li>
+              <li><a href="#">Portafolio</a></li>
+              <li><a href="#">Contactanos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+     <section class="containertxt">
+      <h1>Conoces de la historia de los videojuegos</h1>
+      <p class="texto">Esta encuesta se realizo para saber que tanto recuerdas de tus 
+        videojuegos y conocimiento retro
+      </p>  
+    </section>
+
+    <!--TEMA PRINCIPAL-->
+  <main>
+    <div class="page-transition"></div>
+    <div class="container">
+        <div class="left">
+            <nav>
+            <img src="mario.gif" alt="Imagen de videojuego">
+            <br class="salto">
+            <img src="/gif2.gif" alt="Imagen de videojuego">
+            <br>
+             <img src="juego3.gif" alt="idolo"> 
+          </nav>   
+        </div>
+        <div class="center">
+            <h1>Encuesta de Videojuegos</h1>
+            <form>
+              <nav>
+              <img class="imagen1" src="juego1.jpg" alt="" >
+              <p class="p1"> 1. ¿Cuál es tu género de videojuego favorito?</p>
+                <label for="escoge">Escoge sabiamente <br>
+                    <input type="radio" name="genre" value="accion"> Acción
+                </label>
+                <label>
+                    <input type="radio" name="genre" value="aventura"> Aventura
+                </label>
+                <label>
+                    <input type="radio" name="genre" value="rol"> Rol
+                </label>
+                <label>
+                    <input type="radio" name="genre" value="deportes"> Deportes
+                </label>
+                <label>
+                    <input type="radio" name="genre" value="estrategia"> Estrategia
+                </label>
+              </nav>
+              <nav>
+                <p class="p2"> 2. ¿Cuál es tu videojuego favorito?</p>
+                  <label for="genre">Escribrenos sobre ese videojuego:</label>
+                   <textarea id="genre" name="genre" rows="4" cols="50"></textarea>
+
+                   <p>3. ¿Cuál es ese videojuego que lo retomas cada año?</p>
+                  <label for="favoriteGame">Relatanos sobre ese juegaso:</label>
+                  <textarea id="favoriteGame" name="favoriteGame" rows="4" cols="50"></textarea>
+
+              </nav>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="right">
+            <!-- Inicio widget calendario-colombia.com -->
+            <link rel="stylesheet" href="https://cdn.calendario-colombia.com/widget_blanco.css">
+            <script src="https://www.calendario-colombia.com/widget.js"></script>
+              <!-- Fin widget calendario-colombia.com -->
+        </div>
+    </div>
+  </main>
+
+  <!--PIE DE PAGINA-->
+    <footer>
+        <p>¡Gracias por participar en nuestra encuesta de videojuegos!</p>
+    </footer>
+
+    
+    </body>
+</html>
